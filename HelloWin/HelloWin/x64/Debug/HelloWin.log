@@ -1,0 +1,3 @@
+﻿  HelloWin.cpp
+HelloWin.obj : error LNK2019: unresolved external symbol socket referenced in function main
+C:\Users\ariga\source\repos\SystemProgramming\HelloWin\x64\Debug\HelloWin.exe : fatal error LNK1120: 1 unresolved externals
