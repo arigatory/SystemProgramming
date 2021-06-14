@@ -9,7 +9,14 @@ int main()
 
 	printf("Number of Logical Processors: %d\n", si.dwNumberOfProcessors);
 	printf("Page size: %d Bytes\n", si.dwPageSize);
-	printf("Processor Mask: 0x%p\n", (PVOID)si.dwActiveProcessorMask);
+
+#ifdef _WIN64
+		printf("Processor Mask: 0x%016llX\n", si.dwActiveProcessorMask);
+
+#else
+		printf("Processor Mask: 0x%8X\n", si.dwActiveProcessorMask);
+#endif // _WIN64
+
 	printf("Minimum process address: 0x%p\n", si.lpMinimumApplicationAddress);
 	printf("Maximum process address: 0x%p\n", si.lpMaximumApplicationAddress);
 	
