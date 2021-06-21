@@ -1,2 +1,4 @@
 ﻿  HelloWin.cpp
+C:\Users\ariga\source\repos\SystemProgramming\HelloWin\HelloWin\HelloWin.cpp(66,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'PDWORD'
+C:\Users\ariga\source\repos\SystemProgramming\HelloWin\HelloWin\HelloWin.cpp(30,8): warning C4101: 'i': unreferenced local variable
   HelloWin.vcxproj -> C:\Users\ariga\source\repos\SystemProgramming\HelloWin\Debug\HelloWin.exe

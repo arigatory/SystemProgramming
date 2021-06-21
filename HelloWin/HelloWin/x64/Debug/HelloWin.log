@@ -1,2 +1,4 @@
 ﻿  HelloWin.cpp
-  HelloWin.vcxproj -> C:\Users\ariga\source\repos\SystemProgramming\HelloWin\x64\Debug\HelloWin.exe
+C:\Users\ariga\source\repos\SystemProgramming\HelloWin\HelloWin\HelloWin.cpp(33,39): error C2664: 'void printError(TCHAR *)': cannot convert argument 1 from 'const wchar_t [16]' to 'TCHAR *'
+C:\Users\ariga\source\repos\SystemProgramming\HelloWin\HelloWin\HelloWin.cpp(33,15): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\ariga\source\repos\SystemProgramming\HelloWin\HelloWin\HelloWin.cpp(23,7): message : see declaration of 'printError'
